@@ -106,7 +106,7 @@ Day 4 - Spring MVC 3.0 - Hello World Example
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
 	id="WebApp_ID" version="2.5">
 	
-	<display-name>com.rutvikpatel.springmvc3.helloworld</display-name>
+	<display-name>com.pratikJoshi.springmvc3.helloworld</display-name>
 	
 	<!-- Starts Here -->
 	<servlet>
@@ -142,7 +142,7 @@ Day 4 - Spring MVC 3.0 - Hello World Example
         http://www.springframework.org/schema/context/spring-context-3.2.xsd">
     
 	<!-- component scan location configuration -->
-	<context:component-scan base-package="com.rutvikpatel.springmvc3.helloworld" />
+	<context:component-scan base-package="com.pratikJoshi.springmvc3.helloworld" />
 	
 	<!-- jsp page binding configuration -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -196,7 +196,7 @@ Day 4 - Spring MVC 3.0 - Hello World Example
 ![](extra/step7.1.JPG)
 
 ```JAVA
-package com.rutvikpatel.springmvc3.helloworld.controller;
+package com.pratikJoshi.springmvc3.helloworld.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
